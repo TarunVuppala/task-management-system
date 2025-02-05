@@ -1,10 +1,9 @@
-import { Button } from "@/components/ui/button"
+import TaskManager from "@/components/TaskManager";
 
-export default function Home() {
+export default function Page() {
   return (
-    <>
-      <h1>Home</h1>
-      <Button>Button</Button>
-    </>
+    <div className="min-h-screen bg-gray-100 p-4">
+      <TaskManager />
+    </div>
   );
 }
